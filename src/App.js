@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TodoForm from './components/TodoComponents/TodoForm';
 
 const todos = [
   {
@@ -61,6 +62,7 @@ class App extends React.Component {
       <div className= "App">
         <div className = "header">
             <h2>Welcome to your Todo App!</h2>
+            <TodoForm/>
         </div>
       </div>
     );
